@@ -2,31 +2,16 @@
 <div>
 <div class="container">
   <div class="col-span-12">
-    <el-tabs v-model="currentTab" @tab-click="handleClick">
-      <el-tab-pane label="one" name="first">
-        hi
-      </el-tab-pane>
-      <el-tab-pane label="two" name="second">
-      
-      </el-tab-pane>
-      <el-tab-pane label="three" name="third">
-
-      </el-tab-pane>
-      <el-tab-pane label="four" name="fourth">
-
-      </el-tab-pane>
-  </el-tabs>
+  hi
    </div>
    </div>
   </div>
 </template>
 <script>
-import { Tabs } from 'element-ui'
 
 export default {
   name: 'HomeRouter',
   components:{
-    elTabs:Tabs,
   },
   props: {
     msg: String
